@@ -1,0 +1,34 @@
+React Native App (m3u8 Video Streaming)
+
+Questions:-
+1. What's your favorites state management library for react and why?
+Answer: (i) Redux- Deterministic state resolution (enabling deterministic 
+view renders when combined with pure components).
+Transactional state.
+Isolate state management from I/O and side-effects.
+Single source of truth for application state.
+Easily share state between different components.
+Transaction telemetry (auto-logging action objects).
+Time travel debugging.
+(ii) React Hooks- Use state and hook into the component lifecycle without using a class.
+Colocate related logic in one place in your component, 
+rather than splitting it between various lifecycle methods.
+Share reusable behaviors independent of component implementations (like the render prop pattern).
+
+2. Write some react native best practices.
+Answer:  No best practices
+
+3.Which coding style you prefer wet or dry and why?
+Answer: dry - Don’t Repeat Yourself (DRY) is a software development principle, 
+the main aim of which is to reduce repetition of code.
+4.What do you prefer expo or vanilla react native and why?
+Answer: It all depends on the requirements and functionality you want to implement in your app. 
+If you are a beginner and you are trying to digest the behavior, environment and workflows of react-native 
+or any educational purpose is involved then Expo is the best choice for you. It will thrive you to go through 
+these tough workflows easily. If this is not a big issue for you, and you want to give expo a try then go ahead 
+Expo may be the right choice. However, if your app requires a specific functionality and packages with native modules
+ (written with native languages), it’s better to go with Vanilla React Native.
+ As for me, the only drawback is that without Expo the project setup will take more time, 
+ but if you understand how the packages linking works and how to set up an app via Android Studio and XCode, 
+ you will easily develop React Native project without Expo.
+
